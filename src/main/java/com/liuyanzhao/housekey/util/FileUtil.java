@@ -60,7 +60,7 @@ public class FileUtil {
             filePath.append(DateUtil.thisMonth() + 1);
             filePath.append("/");
             filePath.append(nameWithOutSuffix + "." + fileSuffix);
-            path = filePath.toString();
+            path = filePath.toString().replace("\\", "/");
 
         } catch (IOException e) {
             e.printStackTrace();

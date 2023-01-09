@@ -1,5 +1,5 @@
 - 基于SpringBoot的房屋租赁平台 房屋展示平台 留学生房屋租赁平台
-- 预览地址：[http://housekey.liuyanzhao.com](http://housekey.liuyanzhao.com) 暂未部署
+- 预览地址：[http://housekey.liuyanzhao.com](http://housekey.liuyanzhao.com) 
 - 详细介绍地址：[https://liuyanzhao.com/shop/housekey.html](https://liuyanzhao.com/shop/housekey.html)
 - 代码地址：https://github.com/saysky/housekey 或 https://gitee.com/saysky/housekey2
 - 完成时间：2022年2月
