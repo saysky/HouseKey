@@ -1,8 +1,9 @@
 - 基于SpringBoot的房屋租赁平台 房屋展示平台 留学生房屋租赁平台
-- 预览地址：[http://housekey.liuyanzhao.com](http://housekey.liuyanzhao.com) 
-- 详细介绍地址：[https://liuyanzhao.com/shop/housekey.html](https://liuyanzhao.com/shop/housekey.html)
-- 代码地址：https://github.com/saysky/housekey 或 https://gitee.com/saysky/housekey2
-- 完成时间：2022年2月
+- 在线预览地址：[https://borderlessliving.com.au/](https://borderlessliving.com.au) 
+- 介绍视频地址1(百度网盘，推荐)：[https://pan.baidu.com/s/1KHasGrYjU3nkcUFMWMXwaQ?pwd=4sx7](https://pan.baidu.com/s/1KHasGrYjU3nkcUFMWMXwaQ?pwd=4sx7) 
+- 介绍视频地址2(其他，慢点)：[https://static.borderlessliving.com.au/upload/2023/1/1f9537aae59547edb44d929efd84de1a.mp4](https://static.borderlessliving.com.au/upload/2023/1/1f9537aae59547edb44d929efd84de1a.mp4)
+- 详细介绍地址(更新在此)：[https://liuyanzhao.com/shop/housekey.html](https://liuyanzhao.com/shop/housekey.html)
+- 最新更新时间：2023年1月9日
 
 # 一、功能介绍
 - 该项目是给澳洲房产中介做的一个系统，用于展示房源信息的，同时提供指导和一些申请功能。
@@ -10,85 +11,63 @@
 - 房屋浏览、搜索、根据类型小区筛选、房源图片、房源视频、房源地图等等
 - 我们的团队、我们的服务、联系我们
 - 看房申请、申请房源、维修报告、钥匙申请、联系我们
-- 订房指南、入住指南、退房指南
+- 订房指南、入住指南、退房指南 (页面内容可以后天编辑)
 - 后台管理、房源信息发布、各种申请管理、联系我们管理
+- 参数管理 (系统参数配置，以及页面上所有内容文字可以在后台配置)
+- 出租类型管理、菜单管理、页面管理
+- 导出功能，导出房源信息，申请信息
 - 总之，功能很多，做的很细腻，经过多人长时间测试
 
 
 # 二、技术组成
 - 1、SpringBoot
-- 2、Spring Data JPA
-- 3、Thymeleaf
-- 4、Bootstrap
-- 5、MySQL
+- 2、Thymeleaf
+- 3、Bootstrap
+- 4、MySQL
 
 # 三、项目截图
 1-首页1.png
 ![1-首页1.png](img/1-首页1.png)
 2-首页2.png
 ![2-首页2.png](img/2-首页2.png)
-3-首页3.png
-![3-首页3.png](img/3-首页3.png)
-4-详情1.png
-![4-详情1.png](img/4-详情1.png)
-5-详情2.png
-![5-详情2.png](img/5-详情2.png)
-6-详情3.png
-![6-详情3.png](img/6-详情3.png)
-7-详情4.png
-![7-详情4.png](img/7-详情4.png)
-8-详情5.png
-![8-详情5.png](img/8-详情5.png)
-9-详情6.png
-![9-详情6.png](img/9-详情6.png)
-10-我们的团队.png
-![10-我们的团队.png](img/10-我们的团队.png)
-11-我们的服务.png
-![11-我们的服务.png](img/11-我们的服务.png)
-12-联系我们.png
-![12-联系我们.png](img/12-联系我们.png)
-13-看房申请.png
-![13-看房申请.png](img/13-看房申请.png)
-14-申请房源2.png
-![14-申请房源2.png](img/14-申请房源2.png)
-14-申请房源.png
-![14-申请房源.png](img/14-申请房源.png)
-15-维修报告.png
-![15-维修报告.png](img/15-维修报告.png)
-16-钥匙申请.png
-![16-钥匙申请.png](img/16-钥匙申请.png)
-17-订房指南.png
-![17-订房指南.png](img/17-订房指南.png)
-18-入住指南.png
-![18-入住指南.png](img/18-入住指南.png)
-19-后台个人信息.png
-![19-后台个人信息.png](img/19-后台个人信息.png)
-20-后台房屋管理.png
-![20-后台房屋管理.png](img/20-后台房屋管理.png)
-21-后台房屋基本信息.png
-![21-后台房屋基本信息.png](img/21-后台房屋基本信息.png)
-22-后台房屋特征信息.png
-![22-后台房屋特征信息.png](img/22-后台房屋特征信息.png)
-23-后台房屋描述信息.png
-![23-后台房屋描述信息.png](img/23-后台房屋描述信息.png)
-24-后台房屋地图信息.png
-![24-后台房屋地图信息.png](img/24-后台房屋地图信息.png)
-25-后台房屋轮播图信息.png
-![25-后台房屋轮播图信息.png](img/25-后台房屋轮播图信息.png)
-26-后台房屋视频信息.png
-![26-后台房屋视频信息.png](img/26-后台房屋视频信息.png)
-27-联系我们管理.png
-![27-联系我们管理.png](img/27-联系我们管理.png)
-28-看房申请管理.png
-![28-看房申请管理.png](img/28-看房申请管理.png)
-29-看房申请详情.png
-![29-看房申请详情.png](img/29-看房申请详情.png)
-30-申请房源管理.png
-![30-申请房源管理.png](img/30-申请房源管理.png)
-31-申请房源详情.png
-![31-申请房源详情.png](img/31-申请房源详情.png)
-32-申请房源详情2.png
-![32-申请房源详情2.png](img/32-申请房源详情2.png)
+3-房屋详情1.png
+![3-房屋详情1.png](img/3-房屋详情1.png)
+4-房屋详情2.png
+![4-房屋详情2.png](img/4-房屋详情2.png)
+5-房屋详情3.png
+![5-房屋详情3.png](img/5-房屋详情3.png)
+6-房屋详情4.png
+![6-房屋详情4.png](img/6-房屋详情4.png)
+7-定房指南.png
+![7-定房指南.png](img/7-定房指南.png)
+8-申请房源页面.png
+![8-申请房源页面.png](img/8-申请房源页面.png)
+9-看房申请页面.png
+![9-看房申请页面.png](img/9-看房申请页面.png)
+10-后台房源管理.png
+![10-后台房源管理.png](img/10-后台房源管理.png)
+11-后台房源发布编辑1.png
+![11-后台房源发布编辑1.png](img/11-后台房源发布编辑1.png)
+12-后台房源发布编辑2.png
+![12-后台房源发布编辑2.png](img/12-后台房源发布编辑2.png)
+13-后台房源发布编辑3.png
+![13-后台房源发布编辑3.png](img/13-后台房源发布编辑3.png)
+14-后台房源发布编辑4.png
+![14-后台房源发布编辑4.png](img/14-后台房源发布编辑4.png)
+15-后台房源发布编辑5.png
+![15-后台房源发布编辑5.png](img/15-后台房源发布编辑5.png)
+16-后台房源发布编辑6.png
+![16-后台房源发布编辑6.png](img/16-后台房源发布编辑6.png)
+17-联系我们管理.png
+![17-联系我们管理.png](img/17-联系我们管理.png)
+18-自定义页面管理.png
+![18-自定义页面管理.png](img/18-自定义页面管理.png)
+19-菜单管理.png
+![19-菜单管理.png](img/19-菜单管理.png)
+20-出租类型管理.png
+![20-出租类型管理.png](img/20-出租类型管理.png)
+21-参数配置.png
+![21-参数配置.png](img/21-参数配置.png)
 
 
 # 四、联系方式
